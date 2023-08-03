@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/stephhazlitt/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stephhazlitt/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to explore your locally installed R libraries.
@@ -28,10 +30,10 @@ This is a basic example which shows you how to solve a common problem:
 library(libminer)
 
 lib_summary()
-#>                                                                                        library
-#> 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmptzjJ83/temp_libpathe7036dcd7810
-#> 3                                                                 /Users/stephhazlitt/Rlibrary
+#>                                                                                         library
+#> 1                          /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
+#> 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmpohYb0m/temp_libpath102c33498651e
+#> 3                                                                  /Users/stephhazlitt/Rlibrary
 #>   n_packages
 #> 1         29
 #> 2          1
@@ -39,12 +41,12 @@ lib_summary()
 
 # you can also ask it to calculate package sizes:
 lib_summary(sizes = TRUE)
-#>                                                                                        library
-#> 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmptzjJ83/temp_libpathe7036dcd7810
-#> 3                                                                 /Users/stephhazlitt/Rlibrary
+#>                                                                                         library
+#> 1                          /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
+#> 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmpohYb0m/temp_libpath102c33498651e
+#> 3                                                                  /Users/stephhazlitt/Rlibrary
 #>   n_packages   lib_size
 #> 1         29   74731768
-#> 2          1      14261
+#> 2          1      14590
 #> 3        224 2103955872
 ```
