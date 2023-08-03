@@ -61,7 +61,7 @@
 <div class="page-header"><h1 id="libminer">libminer<a class="anchor" aria-label="anchor" href="#libminer"></a>
 </h1></div>
 <!-- badges: start -->
-<!-- badges: end -->
+
 <p>The goal of libminer is to explore your locally installed R libraries. It is a toy package created as a part of a workshop and not meant for serious use.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -79,10 +79,10 @@
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/stephhazlitt/libminer" class="external-link">libminer</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="reference/lib_summary.html">lib_summary</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="co">#&gt;                                                                                        library</span></span>
-<span><span class="co">#&gt; 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library</span></span>
-<span><span class="co">#&gt; 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmptzjJ83/temp_libpathe7036dcd7810</span></span>
-<span><span class="co">#&gt; 3                                                                 /Users/stephhazlitt/Rlibrary</span></span>
+<span><span class="co">#&gt;                                                                                         library</span></span>
+<span><span class="co">#&gt; 1                          /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library</span></span>
+<span><span class="co">#&gt; 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmpohYb0m/temp_libpath102c33498651e</span></span>
+<span><span class="co">#&gt; 3                                                                  /Users/stephhazlitt/Rlibrary</span></span>
 <span><span class="co">#&gt;   n_packages</span></span>
 <span><span class="co">#&gt; 1         29</span></span>
 <span><span class="co">#&gt; 2          1</span></span>
@@ -90,13 +90,13 @@
 <span></span>
 <span><span class="co"># you can also ask it to calculate package sizes:</span></span>
 <span><span class="fu"><a href="reference/lib_summary.html">lib_summary</a></span><span class="op">(</span>sizes <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
-<span><span class="co">#&gt;                                                                                        library</span></span>
-<span><span class="co">#&gt; 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library</span></span>
-<span><span class="co">#&gt; 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmptzjJ83/temp_libpathe7036dcd7810</span></span>
-<span><span class="co">#&gt; 3                                                                 /Users/stephhazlitt/Rlibrary</span></span>
+<span><span class="co">#&gt;                                                                                         library</span></span>
+<span><span class="co">#&gt; 1                          /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library</span></span>
+<span><span class="co">#&gt; 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmpohYb0m/temp_libpath102c33498651e</span></span>
+<span><span class="co">#&gt; 3                                                                  /Users/stephhazlitt/Rlibrary</span></span>
 <span><span class="co">#&gt;   n_packages   lib_size</span></span>
 <span><span class="co">#&gt; 1         29   74731768</span></span>
-<span><span class="co">#&gt; 2          1      14261</span></span>
+<span><span class="co">#&gt; 2          1      14590</span></span>
 <span><span class="co">#&gt; 3        224 2103955872</span></span></code></pre></div>
 </div>
 </div>
@@ -131,7 +131,12 @@
 </ul>
 </div>
 
-
+<div class="dev-status">
+<h2 data-toc-skip>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://github.com/stephhazlitt/libminer/actions/workflows/R-CMD-check.yaml" class="external-link"><img src="https://github.com/stephhazlitt/libminer/actions/workflows/R-CMD-check.yaml/badge.svg" alt="R-CMD-check"></a></li>
+</ul>
+</div>
 
   </aside>
 </div>
