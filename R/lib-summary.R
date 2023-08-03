@@ -3,6 +3,9 @@
 #' Provides a brief summary of the locally-installed
 #' R libraries
 #'
+#' @param sizes Should the sizes of the libraries be calculated?
+#'   Logical; default `FALSE`.
+#'
 #' @return A data.frame containing a count of packages in
 #'         each of your libraries
 #' @export

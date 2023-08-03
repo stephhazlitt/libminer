@@ -6,6 +6,10 @@
 \usage{
 lib_summary(sizes = FALSE)
 }
+\arguments{
+\item{sizes}{Should the sizes of the libraries be calculated?
+Logical; default \code{FALSE}.}
+}
 \value{
 A data.frame containing a count of packages in
 each of your libraries

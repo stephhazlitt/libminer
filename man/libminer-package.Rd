@@ -12,6 +12,7 @@ Provides functions to explore locally-installed R libraries.
 Useful links:
 \itemize{
   \item \url{https://github.com/stephhazlitt/libminer}
+  \item \url{https://stephhazlitt.github.io/libminer/}
   \item Report bugs at \url{https://github.com/stephhazlitt/libminer/issues}
 }
 
