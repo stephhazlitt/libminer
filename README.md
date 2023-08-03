@@ -4,8 +4,6 @@
 # libminer
 
 <!-- badges: start -->
-
-[![R-CMD-check](https://github.com/stephhazlitt/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stephhazlitt/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to explore your locally installed R libraries.
@@ -32,7 +30,7 @@ library(libminer)
 lib_summary()
 #>                                                                                        library
 #> 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmptzjJ83/temp_libpathe703365d9f2e
+#> 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmptzjJ83/temp_libpathe7036dcd7810
 #> 3                                                                 /Users/stephhazlitt/Rlibrary
 #>   n_packages
 #> 1         29
@@ -43,10 +41,10 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                                        library
 #> 1                         /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
-#> 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmptzjJ83/temp_libpathe703365d9f2e
+#> 2 /private/var/folders/8t/3l6vpk9x7nl4kq5w25wb17ww0000gn/T/RtmptzjJ83/temp_libpathe7036dcd7810
 #> 3                                                                 /Users/stephhazlitt/Rlibrary
 #>   n_packages   lib_size
 #> 1         29   74731768
-#> 2          1      14260
+#> 2          1      14261
 #> 3        224 2103955872
 ```
